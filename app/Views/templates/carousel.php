@@ -1,7 +1,8 @@
 
+<section id="carrusel">
   <!-- Carousel -->
 <div class="container">
-<div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -9,21 +10,21 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="<?= base_url('public/images/lefante.jpeg') ?>" class="d-block w-100" alt="...">
+      <img class="d-block w-100" src="<?= base_url('images/lefante.jpeg') ?>" >
       <div class="carousel-caption d-none d-md-block">
         <h5>First slide label</h5>
         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="<?= base_url('public/images/nave.jpeg') ?>" class="d-block w-100" alt="...">
+      <img class="d-block w-100" src="<?= base_url('images/nave.jpeg') ?>" >
       <div class="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="<?= base_url('public/images/cerdito.jpeg') ?>" class="d-block w-100" alt="...">
+      <img class="d-block w-100" src="<?= base_url('images/cerdito.jpeg') ?>" >
       <div class="carousel-caption d-none d-md-block">
         <h5>Third slide label</h5>
         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
@@ -40,3 +41,4 @@
   </a>
 </div>
 </div>
+</section>
