@@ -1,5 +1,5 @@
 
-<section id="carrusel">
+<section id="carrusel" class="bg-light">
   <!-- Carousel -->
 <div class="container">
 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">

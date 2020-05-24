@@ -14,7 +14,7 @@ class Home extends BaseController
 		echo view('templates/navbar',$data);
 		echo view('templates/carousel');
 		echo view('templates/cards');
-		echo view('templates/content');
+		echo view('templates/contact');
 		echo view('templates/footer');
 	}
 }
