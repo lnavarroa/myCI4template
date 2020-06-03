@@ -1,4 +1,4 @@
-root@zeroSun:/var/www/html/myCI4template# git init
+﻿root@zeroSun:/var/www/html/myCI4template# git init
 Reinicializado el repositorio Git existente en /var/www/html/myCI4template/.git/
 root@zeroSun:/var/www/html/myCI4template# git pull https://github.com/lnavarroa/myCI4template master
 Desde https://github.com/lnavarroa/myCI4template
@@ -53,3 +53,31 @@ root@zeroSun:/var/www/html/myCI4template# git add .env
 root@zeroSun:/var/www/html/myCI4template# git commit -m "configuración .env"
 
 
+
+
+-*-*-*-*-*-*-*-03-06-2020-*-*-*-*-*-**-*-
+$ git add .
+warning: adding embedded git repository: app/Libraries/dompdf
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> app/Libraries/dompdf
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached app/Libraries/dompdf
+hint:
+hint: See "git help submodule" for more information.
+
+/xampp/htdocs/myCI4template/app/Libraries (master)
+$ git clone https://github.com/spipu/html2pdf/ html2pdf
+Cloning into 'html2pdf'...
+remote: Enumerating objects: 40, done.
+remote: Counting objects: 100% (40/40), done.
+remote: Compressing objects: 100% (32/32), done.
+remote: Total 4295 (delta 17), reused 20 (delta 8), pack-reused 4255
+Receiving objects: 100% (4295/4295), 30.19 MiB | 1.31 MiB/s, done.
+Resolving deltas: 100% (2873/2873), done.
