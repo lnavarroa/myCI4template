@@ -1,0 +1,35 @@
+CRITICAL - 2020-06-03 14:45:02 --> Class 'Spipu\Html2Pdf\Html2Pdf' not found
+#0 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(910): App\Controllers\Html2pdf->index()
+#1 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Html2pdf))
+#2 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myCI4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\myCI4template\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-06-03 14:46:58 --> Class 'Spipu\Html2Pdf\Html2Pdf' not found
+#0 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(910): App\Controllers\Html2pdf->index()
+#1 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Html2pdf))
+#2 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myCI4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\myCI4template\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-06-03 14:48:13 --> Class 'Spipu\Html2Pdf\Html2Pdf' not found
+#0 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(910): App\Controllers\Html2pdf->index()
+#1 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Html2pdf))
+#2 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myCI4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\myCI4template\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-06-03 14:48:38 --> Class 'Spipu\Html2Pdf\Html2Pdf' not found
+#0 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(910): App\Controllers\Html2pdf->index()
+#1 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Html2pdf))
+#2 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myCI4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\myCI4template\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-06-03 14:48:54 --> Class 'Spipu\Html2Pdf\Html2Pdf' not found
+#0 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(910): App\Controllers\Html2pdf->index()
+#1 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Html2pdf))
+#2 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myCI4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\myCI4template\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}

@@ -53,6 +53,7 @@ class Autoload extends \CodeIgniter\Config\AutoloadConfig
 			'App'         => APPPATH,                // To ensure filters, etc still found,
 			APP_NAMESPACE => APPPATH,                // For custom namespace
 			'Config'      => APPPATH . 'Config',
+			'Html2Pdf' => APPPATH .'libraries/html2pdf/src/Html2Pdf.php'
 		];
 
 		/**

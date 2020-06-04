@@ -13,6 +13,7 @@ class Home extends BaseController
 		echo view('templates/header',$data);
 		echo view('templates/navbar',$data);
 		echo view('templates/carousel');
+		//echo view('html2pdf'); 
 		echo view('templates/cards');
 		echo view('templates/contact');
 		echo view('templates/footer');

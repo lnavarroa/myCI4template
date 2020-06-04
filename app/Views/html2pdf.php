@@ -13,10 +13,10 @@
             <h2 class="mdl-card__title-text">Crear un PDF</h2>
           </div>
           <div class="mdl-card__supporting-text">
-            Solo en Codigo Facilito
+            Ejemplo para crear pdf
           </div>
           <div class="mdl-card__actions mdl-card--border">
-              <form action="generar/generar-pdf.php">
+              <form action="<?= base_url('html2pdf');?>">
                   <input type="submit" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" value="Crear PDF">
               </form>
           </div>
